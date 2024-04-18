@@ -1,7 +1,7 @@
 import { Server, assertEquals } from '../deps/std.ts';
 import { healthCheck } from './health.ts';
 
-const host = 'localhost';
+const host = 'host80';
 const port = parseInt(Deno.env.get('SENCHA_TEST_PORT') || '8238');
 
 Deno.test('health', async () => {
