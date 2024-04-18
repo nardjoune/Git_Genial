@@ -8,7 +8,7 @@ const host = 'localhost';
 const port = parseInt(Deno.env.get('SENCHA_TEST_PORT') || '8238');
 const mockJson = {
   "data": {
-    "name": "Project 1",
+    "name": "Project Nadia",
     "distance": 1000,
     "desciption": "asdasdasd asda dad asdada "
   }
